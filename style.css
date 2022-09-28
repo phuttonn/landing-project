@@ -1,0 +1,40 @@
+@font-face{ 
+	font-family: 'roboto';
+	src: url('WebFont.woff') format('woff')
+}
+	  
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', Arial, sans-serif;
+}
+
+.header,
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    
+}
+
+.header {
+    justify-content: space-between;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bolder;    
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 1em;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.footer {
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+}
