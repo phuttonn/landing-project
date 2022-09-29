@@ -34,6 +34,7 @@ ul {
 }
 
 .footer {
+    display: flex;
     gap: 1em;
     place-items: center;
 }
