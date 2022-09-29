@@ -36,7 +36,8 @@ ul {
 .footer {
     display: flex;
     gap: 1em;
-    place-items: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero {
