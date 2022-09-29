@@ -82,3 +82,15 @@ button {
     font-size: 16px;
     border-radius: 8px;   
 }
+
+.info-head {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    color: #1f2937;
+
+}
+.info {
+    display: flex;
+    flex-direction: row;
+}
