@@ -46,6 +46,7 @@ ul {
     flex: 1;
     padding-top: 100px;
     padding-bottom: 100px;
+    gap: 1em;
 }
 .hero-text {
     display: flex;
