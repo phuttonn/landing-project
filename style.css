@@ -145,3 +145,11 @@ button {
     font-weight: bold;
     font-size: 24px;
 } 
+
+.call-to-action {
+    display: flex;
+    border-radius: 8px;
+    background-color: #3882f6;
+    margin: 50px 150px;
+    color: #f9faf8;
+}
