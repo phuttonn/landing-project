@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    border: 1px solid red;
 }
 
 body {
@@ -150,6 +149,15 @@ button {
     display: flex;
     border-radius: 8px;
     background-color: #3882f6;
-    margin: 50px 150px;
+    margin: 75px 150px;
     color: #f9faf8;
+    font-size:18px;
+    padding: 2.5em 2em;
+    justify-content: space-around;
+}
+
+.call-button {
+    align-self: center;
+    border: 2px solid #e5e7eb;
+    font-weight: 700;
 }
