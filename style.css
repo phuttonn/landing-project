@@ -108,6 +108,9 @@ button {
     flex-direction: column;
     gap: 1em;
     width: 150px;
+    color: #1f2937;
+    font-weight: 100;
+    text-align: center;
 }
 
 .illustration {
@@ -117,6 +120,7 @@ button {
     padding: 1em;
     border: 4px solid #3882f6;
     flex: auto;
+    
 }
 
 .quote {
@@ -125,13 +129,20 @@ button {
     flex-flow: column nowrap;
     justify-content: center;
     padding: 150px 300px;
+    font-size: 36px;
+    color: #1f2937;
 }
 
 
 .quote-text {
-    font-size: 36px;
+    
     font-style: italic;
     font-weight: 1;
-    color: #1f2937;
     padding: 1em 1em 0 1em;
 }
+
+.attribution {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+} 
