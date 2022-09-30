@@ -127,7 +127,7 @@ button {
     background-color: #e5e7eb;
     flex-flow: column nowrap;
     justify-content: center;
-    padding: 150px 300px;
+    padding: 75px 300px;
     font-size: 36px;
     color: #1f2937;
 }
