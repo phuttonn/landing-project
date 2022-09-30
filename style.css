@@ -43,7 +43,6 @@ ul {
 .hero {
     display: flex;
     justify-content: space-between;
-    flex: 1;
     padding-top: 100px;
     padding-bottom: 100px;
     gap: 1em;
@@ -61,6 +60,7 @@ ul {
     width: 400px;
     border-radius: 6px;
     border: 1px solid #404e63;
+    flex: auto;
 }
 
 .main-text {
@@ -91,14 +91,29 @@ button {
     font-weight: 900;
     text-align: center;
     color: #1f2937;
-
+    padding: 48px;
 }
+
 .info {
     display: flex;
     flex-direction: row;
+    padding: 16px 100px;
+    justify-content: center;
+    gap: 48px;
 }
 
 .infograph {
     display: flex;
     flex-direction: column;
+    gap: 1em;
+    width: 150px;
+}
+
+.illustration {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    padding: 1em;
+    border: 4px solid #3882f6;
+    flex: auto;
 }
