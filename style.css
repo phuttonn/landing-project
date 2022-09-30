@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    border: 1px solid red;
 }
 
 body {
@@ -122,4 +123,15 @@ button {
     display: flex;
     background-color: #e5e7eb;
     flex-flow: column nowrap;
+    justify-content: center;
+    padding: 150px 300px;
+}
+
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 1;
+    color: #1f2937;
+    padding: 1em 1em 0 1em;
 }
